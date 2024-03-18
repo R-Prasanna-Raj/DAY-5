@@ -1,0 +1,223 @@
+.main{
+    border: 1px solid black;
+    height: 500px;
+    margin-top: 100px;
+    background-color: black;
+}
+.face{
+    height: 150px;
+    width: 150px;
+    background-color: chartreuse;
+    border-radius: 50% 50% 0% 0%;
+    margin: auto;
+    margin-top: 40px;
+    
+}
+.leye,.reye{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: white;
+    
+    
+}
+.eye{
+    display: flex;
+    justify-content: space-evenly;
+    
+    padding-top: 40px;  
+}
+.lhand,.rhand{
+    height: 75px;
+    width: 25px;
+    background-color: chartreuse;
+    border-radius: 50px;
+    margin-top: 10px;
+    
+}
+.center{
+    background-color: chartreuse;
+    height: 150px;
+    width: 150px;
+    border-radius: 0 0 40% 40%;
+    
+}
+.body1{
+    display: flex;
+    justify-content:space-evenly;
+    width: 250px;
+    margin: auto;
+    margin-top: 10px;
+
+}
+.lleg,.rleg{
+    height: 75px;
+    width: 25px;
+    background-color: chartreuse;
+    border-radius: 50px;
+    transition: transform 5s;
+
+    
+    
+    
+}
+.leg{
+    display: flex;
+    justify-content: space-evenly;
+    width: 150px;
+    margin: auto;
+    margin-top: 20px;
+    
+    
+}
+
+.main:hover .center{
+    width: 175px;
+    background-color: indigo;
+    animation-name: exam;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+    
+}
+
+@keyframes exam {
+    from{background-color: aqua;}
+    to{
+        background-color:forestgreen;
+    }
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(720deg);
+    }
+}
+
+.main:hover .lleg{
+    transform: rotate(180deg);
+    background: blue;
+    
+    background-color: indigo;
+    animation-name: exam;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes exam {
+    
+
+    from{background-color: aqua;}
+    to{
+        background-color:forestgreen;
+    }
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(720deg);
+    }
+    
+}
+
+
+
+.main:hover .rleg{
+    
+    background: blue;
+    
+    background-color: indigo;
+    animation-name: exam;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+@keyframes exam {
+    from{background-color: aqua;}
+    to{background-color:forestgreen; }
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(720deg);
+    }
+
+}  
+
+.main:hover .face{
+    
+    background: blue;
+    
+    background-color: indigo;
+    animation-name: exam;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+
+    
+@keyframes exam {
+    from{background-color: aqua;}
+    to{background-color:forestgreen; }
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(720deg);
+    }
+
+}  
+    
+
+.main:hover .lhand{
+    
+    background: blue;
+    
+    background-color: indigo;
+    animation-name: exam;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+@keyframes exam {
+    from{background-color: aqua;}
+    to{background-color:forestgreen; }
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(720deg);
+    }
+
+}  
+
+.main:hover .rhand{
+    
+    background: blue;
+    
+    background-color: indigo;
+    animation-name: exam;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+@keyframes exam {
+    from{background-color: aqua;}
+    to{background-color:forestgreen; }
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(720deg);
+    }
+
+}  
